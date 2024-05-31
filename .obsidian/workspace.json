@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7ea40863a9cb4ffc",
+        "id": "bcdeb9d8c4a3dae8",
         "type": "tabs",
         "children": [
           {
-            "id": "8033fe11ac05dff7",
+            "id": "637e63f519e018c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,13 +118,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS/compiler/Pratt Parser算法.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "3b16fecc130c8eb5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,10 +148,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "afe8ca18a07ce126",
+  "active": "637e63f519e018c7",
   "lastOpenFiles": [
-    "2024-05-31.md",
     "CS/compiler/Pratt Parser算法.md",
+    "2024-05-31.md",
     "CS/compiler",
     "未命名",
     "CS",

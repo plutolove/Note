@@ -5,5 +5,9 @@
   "obsidian-mind-map",
   "editing-toolbar",
   "obsidian-style-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-linter",
+  "calendar",
+  "oz-image-plugin",
+  "code-styler"
 ]
