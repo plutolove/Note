@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "16918a36d24d69ff",
+        "id": "e2c5deecec991d1c",
         "type": "tabs",
         "children": [
           {
-            "id": "cbd58ed8df204756",
+            "id": "18fdcb5b6d197cda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
+                "file": "Home.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e67809ff661800d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/compiler/Pluto 语言设计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
+                "file": "CS/compiler/Pluto 语言设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md",
+                "file": "CS/compiler/Pluto 语言设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/compiler/Pratt Parser算法.md"
+                "file": "CS/compiler/Pluto 语言设计.md"
               }
             }
           },
@@ -158,10 +172,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cbd58ed8df204756",
+  "active": "6e67809ff661800d",
   "lastOpenFiles": [
-    "CS/compiler/Pratt Parser算法.md",
     "Home.md",
+    "CS/compiler/Pluto 语言设计.md",
+    "CS/compiler/Pratt Parser算法.md",
     "2024-05-31.md",
     "CS/compiler",
     "未命名",
