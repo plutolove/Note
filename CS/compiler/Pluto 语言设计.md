@@ -5,6 +5,7 @@ program    --->   declaration* EOF ;
 declaration   ---> varDecl
 			     | funDecl;
 
+varDecl  --->  "var" IDENTIFIER ":" IDENTIFIER ( "=" expression )? ";" ;
 
 funDecl  --->  "fn" function ;
 
@@ -16,23 +17,28 @@ statement      → exprStmt
                | whileStmt
                | block ;
 
-varDecl  --->  "var" IDENTIFIER ":" IDENTIFIER ( "=" expression )? ";" ;
+
 
 exprStmt       → expression ";" ;
+
 forStmt        → "for" "(" ( varDecl | exprStmt | ";" )
                            expression? ";"
                            expression? ")" statement ;
+
 ifStmt         → "if" "(" expression ")" statement
                  ( "else" statement )? ;
 printStmt      → "print" expression ";" ;
+
 returnStmt     → "return" expression? ";" ;
+
 whileStmt      → "while" "(" expression ")" statement ;
-block          → "{" statement* "}" ;
+
+block          → "{" declaration* "}" ;
 
 
 expression     → assignment ;
 
-assignment     → IDENTIFIER "=" assignment
+assignment     → ( call "." )? IDENTIFIER "=" assignment
                | logic_or ;
 
 logic_or       → logic_and ( "or" logic_and )* ;
@@ -44,7 +50,7 @@ factor         → unary ( ( "/" | "*" ) unary )* ;
 
 unary          → ( "!" | "-" ) unary | call ;
 
-call           → IDENTIFIER "(" arguments? ")" ;
+call           → primary ( "(" arguments? ")" | "." IDENTIFIER )* ;
 
 primary        → "true" | "false" | "nil"
                | NUMBER | STRING | IDENTIFIER | "(" expression ")";
