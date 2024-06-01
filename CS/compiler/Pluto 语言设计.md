@@ -2,14 +2,14 @@
 ```
 program    --->   declaration* EOF ;
 
-declaration   ---> varDecl
-			     | funDecl;
+declaration   ---> funDecl;
 
-varDecl  --->  "var" IDENTIFIER ":" IDENTIFIER ( "=" expression )? ";" ;
+
 
 funDecl  --->  "fn" function ;
 
-statement      → exprStmt
+statement      → varStmt
+			   | exprStmt
                | forStmt
                | ifStmt
                | printStmt
@@ -18,6 +18,7 @@ statement      → exprStmt
                | block ;
 
 
+varStmt  --->  "var" IDENTIFIER ":" IDENTIFIER ( "=" expression )? ";" ;
 
 exprStmt       → expression ";" ;
 
@@ -27,13 +28,14 @@ forStmt        → "for" "(" ( varDecl | exprStmt | ";" )
 
 ifStmt         → "if" "(" expression ")" statement
                  ( "else" statement )? ;
+
 printStmt      → "print" expression ";" ;
 
 returnStmt     → "return" expression? ";" ;
 
 whileStmt      → "while" "(" expression ")" statement ;
 
-block          → "{" declaration* "}" ;
+block          → "{" statement* "}" ;
 
 
 expression     → assignment ;
