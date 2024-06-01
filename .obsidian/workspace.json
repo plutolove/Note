@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "bcdeb9d8c4a3dae8",
+        "id": "16918a36d24d69ff",
         "type": "tabs",
         "children": [
           {
-            "id": "637e63f519e018c7",
+            "id": "cbd58ed8df204756",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS/compiler/Pratt Parser算法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS/compiler/Pratt Parser算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS/compiler/Pratt Parser算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS/compiler/Pratt Parser算法.md"
+              }
             }
           },
           {
@@ -145,12 +154,14 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "637e63f519e018c7",
+  "active": "cbd58ed8df204756",
   "lastOpenFiles": [
     "CS/compiler/Pratt Parser算法.md",
+    "Home.md",
     "2024-05-31.md",
     "CS/compiler",
     "未命名",
