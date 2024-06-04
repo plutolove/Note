@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c5deecec991d1c",
+        "id": "2480b889be4708fa",
         "type": "tabs",
         "children": [
           {
-            "id": "18fdcb5b6d197cda",
+            "id": "94159258591ff4ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e67809ff661800d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/compiler/Pluto 语言设计.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/compiler/Pluto 语言设计.md",
+                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/compiler/Pluto 语言设计.md",
+                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/compiler/Pluto 语言设计.md"
+                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md"
               }
             }
           },
@@ -172,11 +155,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6e67809ff661800d",
+  "active": "94159258591ff4ea",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
+    "Excalidraw",
     "Home.md",
-    "CS/compiler/Pluto 语言设计.md",
     "CS/compiler/Pratt Parser算法.md",
+    "CS/compiler/Pluto 语言设计.md",
     "2024-05-31.md",
     "CS/compiler",
     "未命名",
