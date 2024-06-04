@@ -4,8 +4,6 @@ program    --->   declaration* EOF ;
 
 declaration   ---> funDecl;
 
-
-
 funDecl  --->  "fn" function ;
 
 statement      → varStmt

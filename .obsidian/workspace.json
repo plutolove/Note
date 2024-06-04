@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2480b889be4708fa",
+        "id": "9a6ff3be85a0c1fe",
         "type": "tabs",
         "children": [
           {
-            "id": "94159258591ff4ea",
+            "id": "95efb14f26e56c36",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md"
+                "file": "CS/compiler/Pluto 语言设计.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
+                "file": "CS/compiler/Pluto 语言设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
+                "file": "CS/compiler/Pluto 语言设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md"
+                "file": "CS/compiler/Pluto 语言设计.md"
               }
             }
           },
@@ -155,14 +158,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "94159258591ff4ea",
+  "active": "95efb14f26e56c36",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "CS/compiler/Pluto 语言设计.md",
+    "CS/compiler/Pratt Parser算法.md",
     "Excalidraw/Drawing 2024-06-04 21.36.58.excalidraw.md",
+    "未命名.canvas",
     "Excalidraw",
     "Home.md",
-    "CS/compiler/Pratt Parser算法.md",
-    "CS/compiler/Pluto 语言设计.md",
     "2024-05-31.md",
     "CS/compiler",
     "未命名",
